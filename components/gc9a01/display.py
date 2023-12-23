@@ -3,7 +3,6 @@ import esphome.config_validation as cv
 from esphome import pins
 from esphome.components import spi
 from esphome.components import display
-from esphome.const import __version__ as ESPHOME_VERSION
 from esphome.const import (
     CONF_DC_PIN,
     CONF_ID,
@@ -12,6 +11,7 @@ from esphome.const import (
     CONF_PAGES,
     CONF_WIDTH,
     CONF_HEIGHT,
+    ESPHOME_VERSION,
 )
 
 CODEOWNERS = ["@4cello"]
